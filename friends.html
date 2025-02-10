@@ -17,7 +17,6 @@
 
     <main>
         <div class="container">
-            <!-- Left: Profile List -->
             <div class="profile-list">
                 <div class="profile" onclick="showInfo('spg64')">
                     <img src="images/profile pictures/spg64.png" alt="SPG64">
@@ -59,9 +58,12 @@
                     <img src="images/profile pictures/burple.png" alt="burple">
                     <span>Burple</span>
                 </div>
+                <div class="profile" onclick="showInfo('cbf')">
+                    <img src="images/profile pictures/cbf.png" alt="cbf">
+                    <span>Cosmic Boyfriend</span>
+                </div>
             </div>
 
-            <!-- Right: Info Box -->
             <div class="info-box" id="info-box">
                 <img id="info-image" src="" alt="Profile Picture">
                 <p id="info-text"></p>
@@ -124,6 +126,11 @@ function showInfo(person) {
             text: "local burple guy",
             img: "images/profile pictures/burple.png",
             link: "https://bsky.app/profile/burpleguy.bsky.social"
+        },
+        cbf: {
+            text: "IS THAT THE GUY FROM FRIDAY NIGHT FUNKIN?",
+            img: "images/profile pictures/cbf.png",
+            link: "https://bsky.app/profile/cosmicbf.bsky.social"
         }
     };
 
